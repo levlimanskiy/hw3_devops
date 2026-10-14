@@ -4,7 +4,6 @@ __pycache__
 *.pyc
 .pytest_cache
 Dockerfile.*
-!README.MD
 .gitignore
 
 # конкретно папки, которые не нужны

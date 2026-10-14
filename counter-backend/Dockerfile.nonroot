@@ -25,6 +25,7 @@ RUN mkdir -p dist && \
     --wheel-dir dist/vendor
 
 COPY src ./src
+COPY README.md ./
 RUN poetry build --format wheel
 
 
