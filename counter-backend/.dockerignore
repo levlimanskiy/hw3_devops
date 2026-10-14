@@ -1,0 +1,11 @@
+# всякая хрень
+.git
+__pycache__
+*.pyc
+.pytest_cache
+Dockerfile.*
+*.md
+
+# конкретно папки, которые не нужны
+deploy/
+tests/
